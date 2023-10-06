@@ -1,0 +1,40 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center; /* Centra todo el contenido horizontalmente */
+    display: flex;
+    flex-direction: column; /* Alinea el contenido verticalmente en el centro */
+    justify-content: center; /* Centra verticalmente */
+    align-items: center; /* Centra horizontalmente */
+    height: 100vh;
+
+	/* Estilo para el contenedor principal */
+.center-content {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column; /* Alinea los elementos verticalmente */
+    justify-content: center; /* Centra verticalmente */
+    align-items: center; /* Centra horizontalmente */
+    height: 100vh;
+}
+
+/* Estilo para el contenedor de logo e imagen */
+.content {
+    display: flex;
+    flex-direction: column; /* Alinea los elementos verticalmente */
+    align-items: center; /* Centra horizontalmente */
+}
+
+/* Estilo para el título "Fichas" */
+h1 {
+    font-size: 24px;
+    margin-top: 10px; /* Espacio entre la imagen y el título "Fichas" */
+}
+
+.center-content {
+    text-align: center;
+}
